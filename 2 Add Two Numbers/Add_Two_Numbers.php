@@ -1,3 +1,5 @@
+<?php
+
 class Solution {
     function addTwoNumbers($l1, $l2) {
         $dummy = new ListNode(0);
@@ -13,8 +15,9 @@ class Solution {
             $l1 = $l1 ? $l1->next: null;
             $l2 = $l2 ? $l2->next: null;
         }
-        
+
         return $dummy->next;
     }
 }
+
 
