@@ -22,7 +22,6 @@ class Solution {
             $reserved = $reserved * 10 + $digit;
             $x = (int)($x/10);
         }
-
         return $original === $reserved;
     }
 }
