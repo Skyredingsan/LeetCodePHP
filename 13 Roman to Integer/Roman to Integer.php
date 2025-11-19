@@ -30,6 +30,7 @@ class Solution {
             }
             $prev = $current;
         }
+
         return $result;
     }
 }
