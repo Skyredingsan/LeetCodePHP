@@ -15,7 +15,6 @@ class Solution {
             $l1 = $l1 ? $l1->next: null;
             $l2 = $l2 ? $l2->next: null;
         }
-
         return $dummy->next;
     }
 }
